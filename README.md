@@ -1,0 +1,2 @@
+# FSD
+full stack repo
