@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [state, setState] = useState("Sign Up");
+  const navigate=useNavigate()
 
   async function register(e) {
     e.preventDefault();
@@ -54,6 +56,7 @@ const Login = () => {
       const res = await response.json();
 
       if (response.ok) {
+        navigate('/dashBoard');
         alert(res.msg);  // Success message from server
       } else {
         alert(`Error: ${res.msg}`);  // Error message from server

@@ -1,10 +1,8 @@
 import React from 'react'
 
-function DashBoard() {
+const DashBoard = () => {
   return (
-    <>
-        
-    </>
+    <div>DashBoard</div>
   )
 }
 
