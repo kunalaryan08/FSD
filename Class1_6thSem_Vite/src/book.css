@@ -1,0 +1,51 @@
+/* Book.css */
+.book-container {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 80px;
+    text-align: center;
+  }
+  
+  .book-image {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .book-author {
+    color: #555;
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  .book-description {
+    color: #777;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .toggle-btn {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  

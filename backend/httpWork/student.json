@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Aryan",
+        "roll" : 2546183,
+        "branch" : "CSE-B",
+        "college" : "Abes Enginnering College"
+    },
+    {
+        "name" : "Aaryan",
+        "roll" : 246183,
+        "branch" : "CSE-B",
+        "college" : "Abes Enginnering College"
+    },
+    {
+        "name" : "Ayush",
+        "roll" : 254183,
+        "branch" : "CSE-B",
+        "college" : "Abes Enginnering College"
+    }
+]
